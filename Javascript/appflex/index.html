@@ -1,0 +1,35 @@
+<!--https://www.youtube.com/watch?v=qlRvwDCfRgM&list=PLbEOwbQR9lqyuy7U1YjGgBv0x2Hzuw569&index=6  aula video professor jose de assis 1 video-->
+<!--https://www.youtube.com/watch?v=NXHtTjHk67c&list=PLbEOwbQR9lqyuy7U1YjGgBv0x2Hzuw569&index=7  aula video 2 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>appflex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container"> <!---->
+        <h1>Calculadora <span>Flex</span> </h1>
+
+        <img src="icons/neutro.png" alt="visor da calculadora" id="status">
+
+        <form name = "frmFlex"><!--name: serve para pegar o conteudo para o javascript da vida-->
+            <input type="number" class="caixa" placeholder="Etanol" name="txtetanol" > <!--placeholder: ele coloca uma marca da agua dentro do bloco e precisa estar dentro do form / class: voce consegue reutilizar o mesmo estilo para duas coisas diferentes mas as duas irão mudar--> 
+            <input type="number" class="caixa" placeholder="Gasolina" name="txtgasolina">
+
+            <input type="button" value="Vantagem" onclick="calcular()" > <!--input button cria um botão--> <!--onclick é um evento, quando clicar em um componente dispara um evento-->
+            <input type="reset" value="resetar"   onclick="limpar()">
+
+
+        </form>
+    </div>
+    <script src="flex.js" > </script> <!--ligação com o documento JS--> <!--usar o <script> antes do fechamento do body-->
+
+</body>
+
+</html>

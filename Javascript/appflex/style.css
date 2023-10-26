@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+
+
+#container{
+    text-align: center; /* text-aling: alinhar o text // center pra centralizar /*/
+}
+
+span{
+    color:  #eb394e;
+}
+
+
+.caixa{
+    width: 80px;
+}
