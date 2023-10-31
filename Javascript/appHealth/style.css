@@ -1,0 +1,13 @@
+body{
+
+    font-family: sans-serif;
+
+}
+
+#main{
+    text-align: center;
+}
+
+.caixa{
+    width: 100px;
+}
