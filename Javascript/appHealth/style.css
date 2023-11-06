@@ -1,13 +1,43 @@
 body{
 
     font-family: sans-serif;
+    
 
 }
 
 #main{
     text-align: center;
+    
 }
 
 .caixa{
-    width: 100px;
+    width: 80px;
 }
+
+input[type=number]::-webkit-inner-spin-button {         /* retirar as setinhas o input number do chrome */
+    -webkit-appearance: none;
+}
+
+input[type=number] {             /* retirar as setinhas o input number fire fox*/
+
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input::placeholder{
+    color:#a52a2a
+}
+
+
+#grafico{
+
+    margin-right:180px;
+}
+
+
+#coração{
+    margin-right:180px;
+}
+ 
+
+
