@@ -1,0 +1,55 @@
+DOM (Document Object Model) - modelo usado pelo JS para interação com HTML
+
+document (objeto nativo do documento HTML)
+   \__ documento HTML
+
+<tag>
+
+id
+
+class
+
+name
+
+__________________________________________________________
+Front-end (HTML - CSS - JS) -> processamento é realizado no navegador de internet
+
+Preparação do ambiente de desenvolvimento
+- VSCode
+Extensões: Bracket Pair Colorization Toggler e live server
+! -> template HTML
+link:css -> style.css
+
+
+                 / appflex(raiz) 
+   index.html
+   style.css      [icons] (pasta)
+   flex.js           etanol.png
+                     gasolina.png
+                     neutro.png
+      
+
+index.html  ---->  icons ----> neutro.png
+
+
+html ----- js
+<script src=""></script>  //antes do fechamento do body
+
+
+_________________________________________________________
+
+O html também consegue executar as funções do documento js
+usando os eventos.
+
+onclick() clicar em um componente (Ex: botão de formulário)
+
+
+
+
+
+
+
+
+
+
+

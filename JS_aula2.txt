@@ -1,0 +1,38 @@
+Dicas:
+https://survey.stackoverflow.co/2023/
+https://www.youtube.com/watch?v=WRlfwBof66s
+
+<alt><shift><f> "Usar SEMPRE" -> alinhamento do código
+________________________________________________________________
+Robótica, automação industrial, automotiva, militar, embarcados
+- linguagem C 
+
+________________________________________________________________
+Games
+- C++ (Unreal)
+- C# (Unity)
+- modelagem 3D
+- sprites 2D
+- roteiro
+- produção audiovisual
+- etc
+________________________________________________________________
+Mobile (APP)
+- Java (Android)
+- Swift (IOS)
+- JS (multiplataforma)
+________________________________________________________________
+Sistemas desktop (sistemas para comércio de rua (bens e serviços))
+- Java
+- C#
+- JS (totem de auto-atendimento)
+________________________________________________________________
+
+
+
+
+
+
+
+
+
