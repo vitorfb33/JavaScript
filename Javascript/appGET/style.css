@@ -1,0 +1,190 @@
+/*Importação de Fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/*CSS Reset*/
+
+/*   * serve para o corpo inteiro    */
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; /*fonte Open Sans*/
+    font-size: 1em;
+    text-align: center; /* text-aling center, centraliza tudo */
+}
+
+/*Cabeçalho */
+header{
+    margin: 25px 0px 25px 0px; /*top, right, bottom, left*/
+}
+
+header h1{
+    font-size: 2.5em; /*aumentando o tamanho da fonte*/
+    color: #fd0404;
+}
+
+/*Formulario*/
+input[type=number]{
+    width: 90px;
+    padding: 8px;
+    border-radius: 5px solid #ff0505;  /*cria um borda*/
+
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 25px 0px;
+
+}
+
+.radio p {
+    padding-right: 20px;
+    font-weight: 700; /* para deixar em negrito*/ 
+}
+
+.Sexo{
+    padding: 0px 20px 0px 5px;
+}
+
+#atividade{
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fd0404;
+}
+
+input[type=button]{
+    padding: 10px 25px 10px 25px;
+    margin-right: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fd0404;
+    color: #ffffff;
+}
+
+
+input[type=reset]{
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fd0404;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/*Coração pulsando*/
+.coracao{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid #00ff00;/* borda para estudo */
+    position: relative;
+    transform: rotate(-135deg);
+    margin-left: 50px; 
+    animation: pulsar 0.7s infinite alternate;
+    z-index: -1;
+}
+
+.quadrado{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    background-color: #fd0404;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid #000000;*/
+    border-radius: 50px;  /*o width e o height precisam ser do mesmo tamanho para o boder-radius transformar em circulo mas o boder-radius precisa ser do mesmo tamnho*/
+    position: absolute;
+    background-color: #fd0404;
+}
+
+.top{
+    top: 50%;
+}
+
+.left{
+    left: 50%;
+    
+}
+
+/* Animação com o CSS */
+@keyframes pulsar{
+    0%{
+        transform: scale(0.95) rotate(-135deg);
+    }
+    100%{
+        transform: scale(1.15) rotate(-135deg);
+    }
+}
+
+
+/*tirar setinhas*/
+/* retirar as setinhas o input number do chrome */
+input[type=number]::-webkit-inner-spin-button {  
+    -webkit-appearance: none;
+}
+
+/* retirar as setinhas o input number fire fox*/
+input[type=number] {             
+
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+
+/*Info IMC e FCM*/
+.info{
+    display: flex; /*display flex é um conteiner e fica tudo na horizontal*/
+    justify-content: center; /*justify-content: center/ centraliza*/
+    text-align: center; 
+}
+
+.peso{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.fcm{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Calorias nessecarias por dia:*/
+#calorias{
+    font-size: 2em;
+    font-weight: 700;
+    color: #fd0404;
+}
+
+.coracao {
+    top: 50px;
+}
+
+/* rotacionar tela */
+@media screen and (min-width: 576px) and (max-width: 992px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
