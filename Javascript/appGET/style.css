@@ -176,6 +176,19 @@ input[type=number] {
     top: 50px;
 }
 
+
+.Frequencia h3{
+    position: absolute;
+
+    right: 30px;
+    bottom: 235px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 1.5em;
+    
+}
+
+
 /* rotacionar tela */
 @media screen and (min-width: 576px) and (max-width: 992px) and (orientation: landscape) {
     html {
