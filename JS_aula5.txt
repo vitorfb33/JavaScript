@@ -1,0 +1,20 @@
+Material de apoio:
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
+
+Git -> local
+https://git-scm.com/
+
+Configurações iniciais:
+
+git config --global user.name "seu nome"
+git config --global user.email "email vinculado ao github"
+
+No GitHub criar um repositório.
+
+Clonar o repositório no PC
+git clone link_do_repositório
+
+git status (verificar alterações no projeto)
+git add . (adiciona as alterações ao container (local))
+git commit -m "documentação do projeto"
+git push (envia as alterações para o repositório)
