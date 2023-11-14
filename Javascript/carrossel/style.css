@@ -1,0 +1,27 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* centralizar o conteúdo na tela do dispositivo */
+.Container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Deixar todas as imagens responsivas */
+img {
+    max-width: 100%;
+}
+
+/* Efeito fade (esmaecimento, desaparecimento) */
+
+#slide {
+    opacity: 1; /* 100% visível (0 a 1) */
+    transition: opacity 2s
+}
+
+#slide.FadeOut {
+    opacity: 0.1 /* invisível (0 a 1) */
+}
